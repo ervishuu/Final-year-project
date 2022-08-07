@@ -114,3 +114,21 @@ Weather forecasting can help with a farmer’s business decisions. Forecasts can
 9) nltk
 10) sqlite3
 11) joblib
+
+## Team members 
+
+I want to thank your team for their hard work and dedication
+
+1) Shubham Nikam    [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubham-nikam-b52ba41a3/)
+2) Vishvanath Metkari   [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishvanath-metkari-586617197/)
+3) Akash Shinde    [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akash-shinde-3237b81b0/)
+4) Saurabh Bane   [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saurabh-bane-86a6a71b1/)
+
+
+
+
+# Hi, I'm Vishvanath ! 👋
+
+
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishvanath-metkari-586617197/)
