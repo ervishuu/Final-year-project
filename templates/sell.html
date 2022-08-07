@@ -1,0 +1,146 @@
+{% extends 'layouts/app.html' %}
+
+{% block css %}
+<link href="static/css/contact.css" rel="stylesheet">
+<style>
+    .custom-image-input {
+        padding-top: 4px !important;
+        padding-bottom: 37px !important;
+    }
+</style>
+{% endblock css %}
+
+{% block content %}
+
+<section id="contact_main">
+    <div class="contact_main_3 clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="contact_main_1 clearfix">
+                    <div class="col-sm-6">
+                        <div class="contact_main_2">
+                            <h2>Sell</h2>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="contact_main_2">
+                            <ul>
+                                <li>Home</li>
+                                <li>!</li>
+                                <li>register</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="exercise">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="col-sm-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3635689.793072721!2d78.6421709625!3d27.141236999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1531201517392 "
+                        height="350" style="border:0; width:100%;" allowfullscreen=""></iframe>
+                </div>
+                <div class="col-sm-6">
+                    <div class="exercise_3">
+                        <h2>Sell</h2>
+                    </div>
+                    <form action="/sell" method="POST" enctype="multipart/form-data">
+                        <div class="col-sm-12 space_all">
+                            <div class="col-sm-12 space_all">
+                                <div class="exercise_4">
+                                    <label for="image_first">Image</label>
+                                    <input type="file" name="image_first" class="form-control custom-image-input">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 space_all">
+                                <div class="exercise_4">
+                                    <label for="image_second">Image</label>
+                                    <input type="file" name="image_second" class="form-control custom-image-input">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 space_all">
+                                <label for="breed_name">Breed Name</label>
+                                <div class="exercise_4">
+                                    <input type="text" name="breed_name" class="form-control" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-sm-12 space_all">
+                                <label for="animal_type">Animals Type</label>
+                                <div class="exercise_4">
+                                    <input type="text" name="animal_type" class="form-control" placeholder="" required>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 space_all">
+                                <label for="age">Age</label>
+                                <div class="exercise_4">
+                                    <input type="number" name="age" class="form-control" placeholder="" required>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 space_all">
+                                <label for="price">Price</label>
+                                <div class="exercise_4">
+                                    <input type="number" name="price" class="form-control" placeholder="" required>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-12 space_all">
+                            <div class="exercise_6">
+                                <button type="submit" class="button_1">Sell</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="sells-table">
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First Image</th>
+                    <th scope="col">Second Image</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% if all_sells|length == 0 %}
+                <tr>
+                    <div class="alert alert-warning">
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        <strong>No Records Found</strong>
+                    </div>
+                </tr>
+                {% else %}
+
+                {% for sell in all_sells %}
+                <tr>
+                    <th scope="row">{{loop.index}}</th>
+                    <td><img src="{{sell.first_image}}" alt="sdkjf" srcset="" width="50px">
+                    </td>
+                    <td><img src="{{sell.second_image}}" alt="sdkjf" srcset="" width="50px"></td>
+                    <td>{{sell.price}}</td>
+                    <td>{{sell.status}}</td>
+                </tr>
+                {% endfor %}
+                {% endif %}
+
+
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+{% endblock content %}

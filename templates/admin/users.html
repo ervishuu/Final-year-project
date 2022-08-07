@@ -1,0 +1,57 @@
+{% extends '/admin/layouts/app.html' %}
+
+{% block content %}
+
+<div class="row">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">All Users</h4>
+
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>User Name</th>
+                                <th>Profile Photo</th>
+                                <th>Email</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for user in users_list | reverse %}
+                            <tr>
+                                <td>{{loop.index}}</td>
+                                <td>{{user.first_name}} {{user.last_name}}</td>
+                                <td><img src="{{user.first_image}}" alt=""></td>
+                                <td><label class="badge badge-danger">{{user.email}}</label></td>
+                                <td>
+                                    <div class="d-flex">
+                                        <div class="dropdown mr-2">
+                                            <button class="btn btn-danger btn-sm dropdown-toggle" type="button"
+                                                id="dropdownMenuSizeButton3" data-toggle="dropdown" aria-haspopup="true"
+                                                aria-expanded="false">
+                                                Options
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuSizeButton3">
+                                                <a class="dropdown-item" href="/user_details/{{user.id}}">View
+                                                    User</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}

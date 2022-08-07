@@ -1,0 +1,76 @@
+<section id="header_main">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 space_all">
+                <div class="col-sm-3 space_all">
+                    <div class="header_main_1">
+                        <a href="/"><i class="fa fa-tree"></i>Hello farmer</a>
+                    </div>
+                </div>
+                <div class="col-sm-9 space_all">
+                    <div class="header_main_2 clearfix">
+                        <div class="col-sm-4 space_all">
+                            <div class="header_main_3 clearfix">
+                                <div class="col-sm-2">
+                                    <div class="header_main_4">
+                                        <i class="fa fa-mobile"></i>
+                                    </div>
+                                </div>
+                                <div class="col-sm-10">
+                                    <div class="header_main_5">
+                                        <p>7875494313<br />
+                                            <a href="#">info@hellofarmer.com</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="header" class="cd-secondary-nav" class="clearfix">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#dropdown-thumbnail-preview">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/"><i class="fa fa-tree"></i>AGRICULTURAL</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="dropdown-thumbnail-preview">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">Home</a></li>
+                    <!--        <li><a href="services.html">Services</a></li>-->
+                    <li><a href="/shop">Shop</a></li>
+                    <li><a href="/mandi_price_forcasting">Market Forecasting</a></li>
+                    <li><a href="/seeds_rate">Mandi Market</a></li>
+                    <!-- <li><a href="/import_rate_data">Import data</a></li> -->
+                    {% if not session['isLoggedIn'] %}
+                    <li><a href="/login">Login</a></li>
+                    <li><a href="/register">Register</a></li>
+                    {% endif %}
+                    {% if session['isLoggedIn'] %}
+                    <li><a href="/logout">Logout</a></li>
+                    {% if session['user_type'] != 'admin' %}
+                    <li><a href="/sell">Sell</a></li>
+                    <li><a href="/enquiries">Enquiries</a></li>
+                    {% endif %}
+                    {% endif %}
+                    {% if session['isLoggedIn'] %}
+                    <h5 class="ml-auto" style="float:right;color: white;">{{session['email']}}</h5>
+                    {% endif %}
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</section>

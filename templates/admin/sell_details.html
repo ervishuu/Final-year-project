@@ -1,0 +1,74 @@
+{% extends '/admin/layouts/app.html' %}
+
+{% block css %}
+
+<style>
+    .profile-photo {
+        border-radius: 50%;
+    }
+
+    .sell_details_image {
+        width: 16rem;
+        height: 15rem;
+    }</style>
+
+{% endblock css %}
+
+{% block content %}
+
+{% if not sellDetails %}
+
+<div class="col-12">
+    <div class="card card-dark-blue">
+        <div class="card-body">
+            <p class="fs-30 mb-2">Sorry No Such Sell Record is Present</p>
+        </div>
+    </div>
+</div>
+
+{% else %}
+
+<div class="row">
+    <div class="card col-4 p-3">
+        <div class="col-4 mb-2">
+            <div class="img">
+                <img class="sell_details_image" src="{{url_for('static',filename = first_image)}}" alt="test">
+            </div>
+        </div>
+        <hr>
+        <div class="col-4">
+            <div class="img">
+                <img class="sell_details_image" src="{{url_for('static',filename = second_image)}}" alt="test">
+            </div>
+        </div>
+    </div>
+    <div class="col-8">
+        <div class="card card-dark-blue">
+            <div class="card-body">
+                <h3>Sell Post Details</h3>
+                <hr>
+                <h5>Breed Name</h5>
+                <p>{{sellDetails.breed_name}}</p>
+                <hr>
+                <h5>Animal Type</h5>
+                <p>{{sellDetails.animal_type}}</p>
+                <hr>
+                <h5>Age</h5>
+                <p>{{sellDetails.age}}</p>
+                <hr>
+                <h5>Price</h5>
+                <p>{{sellDetails.price}}</p>
+                <hr>
+                <h5>Status</h5>
+                <p>{{sellDetails.status}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endif %}
+
+
+
+{% endblock content %}

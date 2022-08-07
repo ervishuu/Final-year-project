@@ -1,0 +1,90 @@
+{% extends '/admin/layouts/app.html' %}
+
+{% block content %}
+
+<div class="row">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">All Sells Table</h4>
+
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>User Name</th>
+                                <th>Image 1</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% if all_sells|length == 0 %}
+
+                            <div class="col-12">
+                                <div class="card card-dark-blue">
+                                    <div class="card-body">
+                                        <p class="fs-30 mb-2">Sorry No Any Sells are Present</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {% else %}
+                            {% for sell in all_sells | reverse %}
+                            <!-- {{sell.sell_id}} -->
+                            <tr>
+                                <td>{{loop.index}}</td>
+                                <td>{{sell.first_name}} {{sell.last_name}}</td>
+                                <td><img src="{{sell.first_image}}" alt=""></td>
+                                <td>
+                                    {% if sell.status == 'accepted' %}
+                                    <label class="badge badge-success">{{sell.status}}</label>
+                                    {% else %}
+                                    <label class="badge badge-danger">{{sell.status}}</label>
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    <div class="d-flex">
+                                        <div class="dropdown mr-2">
+                                            <button class="btn btn-danger btn-sm dropdown-toggle" type="button"
+                                                id="dropdownMenuSizeButton3" data-toggle="dropdown" aria-haspopup="true"
+                                                aria-expanded="false">
+                                                Options
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuSizeButton3">
+                                                <a class="dropdown-item" href="/user_details/{{sell.user_id}}">View
+                                                    User</a>
+                                                <a class="dropdown-item" href="/sell_details/{{sell.sell_id}}">View Sell
+                                                    Post</a>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown">
+                                            <button class="btn btn-danger btn-sm dropdown-toggle" type="button"
+                                                id="dropdownMenuSizeButton3" data-toggle="dropdown" aria-haspopup="true"
+                                                aria-expanded="false">
+                                                Change Status
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuSizeButton3">
+                                                <a class="dropdown-item"
+                                                    href="/admin_sell_status_change/accepted/{{sell.sell_id}}">Accept</a>
+                                                <a class="dropdown-item"
+                                                    href="/admin_sell_status_change/rejected/{{sell.sell_id}}">Reject</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                            {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock content %}

@@ -1,0 +1,48 @@
+{% extends 'layouts/app.html' %}
+
+{% block content %}
+
+<section class="sells-table">
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First Image</th>
+                    <th scope="col">Enquirer Name</th>
+                    <th scope="col">Message</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">Contact</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% if enquiries|length == 0 %}
+                <tr>
+                    <div class="alert alert-warning">
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        <strong>No Records Found</strong>
+                    </div>
+                </tr>
+                {% else %}
+
+                {% for enquiry in enquiries %}
+                <tr>
+                    <th scope="row">{{loop.index}}</th>
+                    <td><img src="{{enquiry.first_image}}" alt="sdkjf" srcset="" width="50px">
+                    </td>
+                    <td>{{enquiry.first_name}}</td>
+                    <td>{{enquiry.message}}</td>
+                    <td>{{enquiry.address}}</td>
+                    <td>{{enquiry.contact_number}}</td>
+                </tr>
+                {% endfor %}
+                {% endif %}
+
+
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+{% endblock content %}

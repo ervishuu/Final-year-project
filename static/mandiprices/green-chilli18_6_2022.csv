@@ -1,0 +1,22 @@
+id,Arrival Date,Variety,State,Market,Min / Max Price (Rs./Quintal),Average price (Rs./Quintal),Commodity
+,,,,,,,
+0,18/06/2022,Other,Kerala,Harippad,4000.00 - 4500.00,4000.00 ,Green Chilli
+1,18/06/2022,Green Chilly,Uttar Pradesh,Sirsaganj,1890.00 - 2090.00,1990.00 ,Green Chilli
+2,18/06/2022,Green Chilly,Uttar Pradesh,Mohammdi,2700.00 - 2900.00,2800.00 ,Green Chilli
+3,18/06/2022,Green Chilly,Kerala,Kanjangadu,3500.00 - 4200.00,3800.00 ,Green Chilli
+4,18/06/2022,Green Chilly,Uttar Pradesh,Kosikalan,2000.00 - 2200.00,2100.00 ,Green Chilli
+5,18/06/2022,Green Chilly,Uttar Pradesh,Saharanpur,1950.00 - 2200.00,2080.00 ,Green Chilli
+6,18/06/2022,Other,Kerala,Kottakkal,4700.00 - 4800.00,4750.00 ,Green Chilli
+7,18/06/2022,Green Chilly,Uttar Pradesh,Rasda,2980.00 - 3130.00,3060.00 ,Green Chilli
+8,18/06/2022,Other,Uttrakhand,Roorkee,1500.00 - 2500.00,2300.00 ,Green Chilli
+9,18/06/2022,Green Chilly,Gujarat,Padra,2500.00 - 3500.00,3000.00 ,Green Chilli
+10,18/06/2022,Green Chilly,Haryana,Chhachrauli,2000.00 - 2000.00,2000.00 ,Green Chilli
+11,18/06/2022,Other,Maharashtra,Bhusaval,4000.00 - 4000.00,4000.00 ,Green Chilli
+12,18/06/2022,Green Chilly,Uttar Pradesh,Fatehpur Sikri,2050.00 - 2200.00,2130.00 ,Green Chilli
+13,18/06/2022,Green Chilly,Gujarat,Mehsana(Mehsana Veg),500.00 - 5000.00,2750.00 ,Green Chilli
+14,18/06/2022,Other,Madhya Pradesh,Dewas(F&V),200.00 - 700.00,400.00 ,Green Chilli
+15,18/06/2022,Green Chilly,Uttar Pradesh,Sehjanwa,2100.00 - 2150.00,2125.00 ,Green Chilli
+16,18/06/2022,Other,Gujarat,Ahmedabad,2000.00 - 3000.00,2500.00 ,Green Chilli
+17,18/06/2022,Other,Himachal Pradesh,Mandi(Mandi),1500.00 - 3000.00,2500.00 ,Green Chilli
+18,18/06/2022,Green Chilly,Karnataka,Channapatana,2000.00 - 3000.00,2500.00 ,Green Chilli
+19,18/06/2022,Green Chilly,Uttar Pradesh,Thanabhawan,2200.00 - 2300.00,2260.00 ,Green Chilli

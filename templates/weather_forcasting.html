@@ -1,0 +1,135 @@
+{% extends 'layouts/app.html' %}
+{% block css %}
+<link href="static/css/contact.css" rel="stylesheet">
+<style>
+    .custom-image-input {
+        padding-top: 4px !important;
+        padding-bottom: 37px !important;
+    }
+
+    #search {
+
+    border: 1px;
+    margin: 30px;
+}
+
+section.result{
+
+    border: 1px;
+    margin: 10px;
+    text-align: center;
+}
+
+section > div.container-fluid, div.button-container {
+
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section > div.button-container {
+
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.card {
+
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+p, em {
+
+    margin-bottom: 0;
+}
+
+.forcast-div {
+    background-color: #c8f1ae;
+    width: 1484px;
+    padding: 11px;
+    border: 4px solid black;
+    margin: 22px;
+}
+
+@media screen and (max-width: 320px){
+
+    .forcast-div{
+        width:278px;
+    }
+
+}
+
+</style>
+{% endblock css %}
+
+{% block content %}
+    <!-- -----------------------------------------Header End---------------------------------------------  -->
+
+    <!-- ----------------------------------------------Top Banner---------------------------------------------- -->
+    <section id="contact_main">
+        <div class="contact_main_3 clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="contact_main_1 clearfix">
+                        <div class="col-sm-6">
+                            <div class="contact_main_2">
+                                <h2>Weather Forecasting</h2>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="contact_main_2">
+                                <ul>
+                                    <li>Home</li>
+                                    <li>!</li>
+                                    <li>Weather Forecasting</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -------------------------------------------Top Banner End--------------------------------------------- -->
+    <!----------------------------------------------main container start---------------------------------------------- -->
+       <center> <form action="/weather_forcasting_result" method="POST" id="search">
+            <div class="input-group mb-3">
+                <label for="txtArea">Enter location </label>
+                <input type="text"
+                       name="location"
+                       class="form-control"
+                       id="txtArea"
+                       placeholder="Search for a Location"
+                       aria-label="Location"
+                       aria-describedby="button-addon2"
+                       required>
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" id="button-addon2" type="submit">
+                        Forecast
+                    </button>
+                </div>
+            </div>
+        </form>
+       </center>
+
+<center>
+    <h4>IMPORTANCE OF WEATHER FORECASTING IN MODERN AGRICULTURE AND FARMING</h4></center>
+<div class="forcast-div">
+<p>Agriculture and farming are mainly dependent on seasons and weather. The temperature matters a lot in that case when it comes to the farming of different kinds of fruits, vegetables, and pulses. Previously we did not have a better understanding of weather forecasting and farmers were still doing their job based on predictions.
+    Though sometimes they occur loss due to false predictions of weather.
+    </p>
+    <p>Now that the technology is developed and special weather forecasting mechanisms are available, the farmers can get all the updates are on a smartphone. Education towards that is, of course, an important thing but most of the farmer population at this stage knows the basics which make it easy for them to use the features.Occurrences of erratic weather are beyond human control. It is possible, however, to adapt to or mitigate the effects of adverse weather if a forecast of the expected weather can be obtained in time. Forecasts should ideally be used for small areas. Some aspects of weather forecasts for agriculture are quite distinct from synoptic weather forecasts. While clear weather is required for sowing operations, it must be preceded by seed zone soil moisture storage. Crop weather factors mean that crops and cropping practices vary across areas within the same season. In the case of well-organized weather systems, the desired areal delineation of forecasts can be realized.
+The area to which the weather forecasts will be applied must be unambiguously stated. </p>
+<p>
+    Weather forecasting is a prediction on conditions of atmosphere depending on location and time. Every area will have their different predictions related to the condition of weather which makes pretty easy for the farmers to know how and what to do when. The relationship between weather and agriculture has, therefore, necessitated the need for accurate prediction of the weather; to enable farmers to make an informed decision that will not bring losses to them. Temperature, sunlight, and rainfall have major effects on the crops. For livestock, temperatures and adequate water and food are essential.
+
+    The forecast of the weather event helps for suitable planning of farming operations. It helps to decide whether to undertake or withhold the sowing operation. To irrigate the crop or not, when to apply fertilizer and whether to start complete harvesting or to withhold it are the major components for which forecasting is a must.</p>
+
+</div>
+
+
+    <!-- --------------------------------------------main container end---------------------------------------------- -->
+{% endblock content %}

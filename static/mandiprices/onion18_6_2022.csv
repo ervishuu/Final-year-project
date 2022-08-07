@@ -1,0 +1,22 @@
+id,Arrival Date,Variety,State,Market,Min / Max Price (Rs./Quintal),Average price (Rs./Quintal),Commodity
+,,,,,,,
+0,18/06/2022,Puna,Karnataka,Bangalore,1000.00 - 2000.00,1800.00 ,Onion
+1,18/06/2022,Red,Uttar Pradesh,Fatehabad,1200.00 - 1350.00,1250.00 ,Onion
+2,18/06/2022,Big,Kerala,Harippad,2000.00 - 2500.00,2000.00 ,Onion
+3,18/06/2022,Other,Kerala,Harippad,2500.00 - 3000.00,2500.00 ,Onion
+4,18/06/2022,Red,Uttar Pradesh,Shahganj,1200.00 - 1400.00,1300.00 ,Onion
+5,18/06/2022,Red,Uttar Pradesh,Mohammdi,1120.00 - 1320.00,1220.00 ,Onion
+6,18/06/2022,Big,Kerala,Kanjangadu,1800.00 - 2500.00,2000.00 ,Onion
+7,18/06/2022,Red,Uttar Pradesh,Chaandpur,1400.00 - 1600.00,1500.00 ,Onion
+8,18/06/2022,Red,Uttar Pradesh,Sirsaganj,1100.00 - 1300.00,1200.00 ,Onion
+9,18/06/2022,Red,Uttar Pradesh,Kosikalan,1170.00 - 1240.00,1200.00 ,Onion
+10,18/06/2022,Other,Kerala,Kottakkal,2300.00 - 2400.00,2350.00 ,Onion
+11,18/06/2022,Onion,Haryana,Chhachrauli,1400.00 - 1500.00,1500.00 ,Onion
+12,18/06/2022,1st Sort,Telangana,Siddipet(Rythu Bazar),1400.00 - 2200.00,1800.00 ,Onion
+13,18/06/2022,Red,Uttar Pradesh,Kiratpur,1300.00 - 1400.00,1350.00 ,Onion
+14,18/06/2022,Other,Uttrakhand,Roorkee,1000.00 - 1500.00,1200.00 ,Onion
+15,18/06/2022,Other,Gujarat,Padra,700.00 - 2000.00,1400.00 ,Onion
+16,18/06/2022,Other,Madhya Pradesh,Dewas(F&V),200.00 - 500.00,300.00 ,Onion
+17,18/06/2022,Onion,Gujarat,Mehsana(Mehsana Veg),500.00 - 1600.00,1250.00 ,Onion
+18,18/06/2022,Red,Uttar Pradesh,Rasda,1240.00 - 1400.00,1310.00 ,Onion
+19,18/06/2022,Red,Uttar Pradesh,Sehjanwa,1200.00 - 1250.00,1225.00 ,Onion

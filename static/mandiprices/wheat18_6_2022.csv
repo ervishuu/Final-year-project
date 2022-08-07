@@ -1,0 +1,22 @@
+id,Arrival Date,Variety,State,Market,Min / Max Price (Rs./Quintal),Average price (Rs./Quintal),Commodity
+,,,,,,,
+0,18/06/2022,Dara,Uttar Pradesh,Shamli,2035.00 - 2175.00,2100.00 ,Wheat
+1,18/06/2022,Local,Gujarat,Mehsana,2000.00 - 2350.00,2250.00 ,Wheat
+2,18/06/2022,Dara,Uttar Pradesh,Dibiapur,2026.00 - 2055.00,2035.00 ,Wheat
+3,18/06/2022,Other,Uttrakhand,Lakshar,2020.00 - 2050.00,2030.00 ,Wheat
+4,18/06/2022,Dara,Uttar Pradesh,Gorakhpur,2000.00 - 2015.00,2015.00 ,Wheat
+5,18/06/2022,Other,Gujarat,Mehsana(Jornang),2050.00 - 2320.00,2250.00 ,Wheat
+6,18/06/2022,Dara,Uttar Pradesh,Fatehabad,1900.00 - 2150.00,1950.00 ,Wheat
+7,18/06/2022,Dara,Uttar Pradesh,Bijnaur,1950.00 - 2150.00,2050.00 ,Wheat
+8,18/06/2022,Local,Karnataka,Bangalore,3000.00 - 3200.00,3100.00 ,Wheat
+9,18/06/2022,Other,Rajasthan,Bijay Nagar,1970.00 - 2080.00,2050.00 ,Wheat
+10,18/06/2022,Other,Madhya Pradesh,Harpalpur,1860.00 - 2000.00,1920.00 ,Wheat
+11,18/06/2022,Dara,Uttar Pradesh,Kasganj,2040.00 - 2120.00,2085.00 ,Wheat
+12,18/06/2022,Dara,Uttar Pradesh,Kosikalan,2100.00 - 2140.00,2125.00 ,Wheat
+13,18/06/2022,Dara,Uttar Pradesh,Mohammdi,1970.00 - 2070.00,2020.00 ,Wheat
+14,18/06/2022,Dara,Uttar Pradesh,Shahganj,2020.00 - 2080.00,2050.00 ,Wheat
+15,18/06/2022,Dara,Uttar Pradesh,Sirsaganj,2080.00 - 2100.00,2090.00 ,Wheat
+16,18/06/2022,Other,Rajasthan,Baran,1920.00 - 2281.00,2040.00 ,Wheat
+17,18/06/2022,147 Average,Telangana,Zaheerabad,2313.00 - 2313.00,2313.00 ,Wheat
+18,18/06/2022,Dara,Uttar Pradesh,Rasda,1950.00 - 2100.00,2030.00 ,Wheat
+19,18/06/2022,Dara,Uttar Pradesh,Sehjanwa,2015.00 - 2015.00,2015.00 ,Wheat

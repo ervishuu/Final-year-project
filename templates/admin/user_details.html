@@ -1,0 +1,68 @@
+{% extends '/admin/layouts/app.html' %}
+
+{% block css %}
+
+<style>
+    .profile-photo {
+        border-radius: 50%;
+    }
+</style>
+
+{% endblock css %}
+
+{% block content %}
+
+{% if not userDetails %}
+
+<div class="col-12">
+    <div class="card card-dark-blue">
+        <div class="card-body">
+            <p class="fs-30 mb-2">Sorry No Such User is Present</p>
+        </div>
+    </div>
+</div>
+
+{% else %}
+
+<div class="row">
+    <div class="col-md-4 card text-center">
+        <div class="col">
+            <img class="profile-photo" src="{{url_for('static', filename='admin/images/faces/face1.jpg')}}" alt="">
+        </div>
+        <br>
+        <div class="d-flex flex-column">
+            <h6>{{userDetails.first_name}} {{userDetails.last_name}}</h6>
+            <p>{{userDetails.email}}</p>
+            <p>{{userDetails.phone}}</p>
+        </div>
+        <hr class="">
+    </div>
+    <div class="col-md-8">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-tale">
+                    <div class="card-body">
+                        <p class="mb-4">Total Sell Posts</p>
+                        <p class="fs-30 mb-2">{{sellDetails.count()}}</p>
+                        <p>10.00%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-dark-blue">
+                    <div class="card-body">
+                        <p class="mb-4">Total Enquiries</p>
+                        <p class="fs-30 mb-2">{{enquiryDetails.count()}}</p>
+                        <p>10.00%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endif %}
+
+
+
+{% endblock content %}

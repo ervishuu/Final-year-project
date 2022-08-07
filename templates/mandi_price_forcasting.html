@@ -1,0 +1,147 @@
+{% extends 'layouts/app.html' %}
+{% block css %}
+<link href="static/css/contact.css" rel="stylesheet">
+<style>
+    .custom-image-input {
+        padding-top: 4px !important;
+        padding-bottom: 37px !important;
+    }
+
+    #search {
+
+    border: 1px;
+    margin: 30px;
+}
+
+section.result{
+
+    border: 1px;
+    margin: 10px;
+    text-align: center;
+}
+
+section > div.container-fluid, div.button-container {
+
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section > div.button-container {
+
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.card {
+
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+p, em {
+
+    margin-bottom: 0;
+}
+
+select {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-family: cursive, sans-serif;
+        outline: 0;
+        background: #2ecc71;
+        color: #fff;
+        border: 1px solid crimson;
+        padding: 4px;
+        border-radius: 9px;
+      }
+.forcast-div {
+    background-color: #c8f1ae;
+    width: 1484px;
+    padding: 11px;
+    border: 4px solid black;
+    margin: 22px;
+}
+</style>
+{% endblock css %}
+
+{% block content %}
+    <!-- -----------------------------------------Header End---------------------------------------------  -->
+
+    <!-- ----------------------------------------------Top Banner---------------------------------------------- -->
+    <section id="contact_main">
+        <div class="contact_main_3 clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="contact_main_1 clearfix">
+                        <div class="col-sm-6">
+                            <div class="contact_main_2">
+                                <h2>Mandi price forcasting</h2>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="contact_main_2">
+                                <ul>
+                                    <li>Home</li>
+                                    <li>!</li>
+                                    <li>Mandi Price Forecasting</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -------------------------------------------Top Banner End--------------------------------------------- -->
+
+    <!-- --------------------------------------------main container start---------------------------------------------- -->
+<br>
+<center>
+    <form action="/commodity_price_forcasting" method="POST">
+                  <label for="commodity">choose commodity </label>
+                  <select name="commodity" id="commodity">
+                    <option value="select">--choose commodity--</option>
+                    <option value="Bajra">Bajra</option>
+                      <option value="chanadal">Chana Dal</option>
+                    <option value="Arhar">Arhar</option>
+                    <option value="Green Banana">Green Banana</option>
+                    <option value="Bhindi">Bhindi (Ladies Finger)</option>
+                    <option value="Cabbage">Cabbage</option>
+                    <option value="Brinjal">Brinjal</option>
+                  </select>
+                  <input type="submit" value="Submit" />
+            </form>
+</center>
+<br>
+<center><h4>Agriculture Commodity Price Forecasting</h4></center>
+    <div class="forcast-div">
+        <p>Forecasting the price of agriculture commodity
+such as vegetables, fruits, cereals etc. is important related to
+economic concerned, farmer perspective, Agriculturist and
+            Industrialist. </p>
+            <p>Price forecasting help famers and the entire user of
+Agriculture to take effective decision regarding mandi price or
+selling price of their crop, which crop to grow to earn profit,
+ultimately improve the condition and income of famer and also
+helps policy maker for agriculture decision.</p>
+        <p>Autoregressive integrated moving average (ARIMA) models predict future values based on past values.Around 2.2% MAPE implies the model is about 97.8% accurate in predicting the next 15 observations.
+            ARIMA model may help for future price
+forecasting of commodity. </p>
+    </div>
+
+<br>
+<!--             <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>-->
+<!--            <div >-->
+<!--              <script type='text/javascript'>-->
+<!--                var graphs = {{graphJSON | safe}};-->
+<!--                Plotly.plot('chart',graphs,{});-->
+<!--              </script>-->
+<!--            </div>-->
+<!--            <div style="position: absolute; bottom: 200px; right: 4px; width: -5px;">-->
+<!--                <h5>Minimum Price of forcasting &#45;&#45; {{minimun_price}}</h5>-->
+<!--                <h5>Maximum Price of forcasting &#45;&#45; {{maximum_price}}</h5>-->
+<!--            </div>-->
+
+    <!-- --------------------------------------------main container end---------------------------------------------- -->
+{% endblock content %}

@@ -1,0 +1,111 @@
+{% extends 'layouts/app.html' %}
+
+{% block css %}
+<link href="static/css/contact.css" rel="stylesheet">
+<style>
+    .custom-image-input {
+        padding-top: 4px !important;
+        padding-bottom: 37px !important;
+    }
+    .forcast-div {
+    background-color: #c8f1ae;
+    width: 1484px;
+    padding: 11px;
+    border: 4px solid black;
+    margin: 22px;
+}
+</style>
+{% endblock css %}
+
+{% block content %}
+
+<section id="contact_main">
+    <div class="contact_main_3 clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="contact_main_1 clearfix">
+                    <div class="col-sm-6">
+                        <div class="contact_main_2">
+                            <h2>Today's mandi markets </h2>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="contact_main_2">
+                            <ul>
+                                <li>Home</li>
+                                <li>!</li>
+                                <li>Mandi Markets</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="sells-table">
+    <div class="container">
+        <h2 style="margin:2rem 0;">Mandi Markets</h2>
+
+<center>
+     <form action="/feachMandiData" method="POST">
+                  <label for="commodity">choose Mandi </label>
+                  <select name="commodity" id="commodity">
+                      <option value="select">--choose Mandi--</option>
+                      <option value="Bajra(Pearl Millet/Cumbu)">Bajra(Pearl Millet/Cumbu)</option>
+                      <option value="Bengal Gram Dal (Chana Dal)">Bengal Gram Dal (Chana Dal)</option>
+                      <option value="Chili Red">Chili Red</option>
+                      <option value="Coconut">Coconut</option>
+                      <option value="Cotton">Cotton</option>
+                      <option value="Dry Grapes">Dry Grapes</option>
+                      <option value="Green Chilli">Green Chilli</option>
+                      <option value="Maize">Maize</option>
+                      <option value="Onion">Onion</option>
+                      <option value="Potato">Potato</option>
+                      <option value="Rice">Rice</option>
+                      <option value="Soyabean">Soyabean</option>
+                      <option value="Sugarcane">Sugarcane</option>
+                      <option value="Sunflower">Sunflower</option>
+                      <option value="Sweet Potato">Sweet Potato</option>
+                      <option value="Tomato">Tomato</option>
+                      <option value="Water Melon">Water Melon</option>
+                      <option value="Wheat">Wheat</option>
+                      <option value="Pomegranate">Pomegranate</option>
+                      <option value="Mataki">Mataki</option>
+                      <option value="Seetapal">Seetapal</option>
+                  </select>
+                  <input type="submit" value="Submit" />
+            </form>
+</center>
+        <br>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Arrival Date</th>
+                    <th scope="col">Variety</th>
+                    <th scope="col">State</th>
+                    <th scope="col">Market</th>
+                    <th scope="col">Min Price (Rs./Quintal)</th>
+                    <th scope="col">Max Price (Rs./Quintal)</th>
+                    <th scope="col">Average price (Rs./Quintal)</th>
+                    <th scope="col">Mandi</th>
+                </tr>
+            </thead>
+
+            <tbody>
+            {% for row in data %}
+                <tr>
+                    {% for d in row %}
+                        <td>{{ d }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+
+            </tbody>
+        </table>
+    </div>
+</section>
+
+{% endblock content %}

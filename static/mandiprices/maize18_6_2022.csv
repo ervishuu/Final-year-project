@@ -1,0 +1,22 @@
+id,Arrival Date,Variety,State,Market,Min / Max Price (Rs./Quintal),Average price (Rs./Quintal),Commodity
+,,,,,,,
+0,18/06/2022,Other,Rajasthan,Bijay Nagar,2000.00 - 2000.00,2000.00 ,Maize
+1,18/06/2022,Hybrid,Uttar Pradesh,Sirsaganj,1990.00 - 2020.00,2010.00 ,Maize
+2,18/06/2022,Yellow,Uttar Pradesh,Kasganj,1900.00 - 2000.00,1950.00 ,Maize
+3,18/06/2022,Yellow,Uttar Pradesh,Saharanpur,1930.00 - 2120.00,2030.00 ,Maize
+4,18/06/2022,Deshi Red,Telangana,Zaheerabad,2222.00 - 2278.00,2278.00 ,Maize
+5,18/06/2022,Local,Karnataka,Bellary,2089.00 - 2327.00,2198.00 ,Maize
+6,18/06/2022,Deshi Red,Haryana,Ambala City(Subji Mandi),1810.00 - 2110.00,1935.00 ,Maize
+7,18/06/2022,Other,Rajasthan,Nimbahera,190.00 - 217.00,203.50 ,Maize
+8,18/06/2022,Yellow,Uttar Pradesh,Balrampur,1880.00 - 2100.00,1980.00 ,Maize
+9,18/06/2022,Yellow,Uttar Pradesh,Buland Shahr,1900.00 - 2100.00,2025.00 ,Maize
+10,18/06/2022,Deshi Red,Telangana,Bichkunda,1870.00 - 1870.00,1870.00 ,Maize
+11,18/06/2022,Hybrid,Uttar Pradesh,Aligarh,1920.00 - 1960.00,1940.00 ,Maize
+12,18/06/2022,Deshi Red,Telangana,Gandhari,1870.00 - 1870.00,1870.00 ,Maize
+13,18/06/2022,Deshi Red,Telangana,Kamareddy,1870.00 - 1870.00,1870.00 ,Maize
+14,18/06/2022,Yellow,Uttar Pradesh,Lakhimpur,1750.00 - 1830.00,1785.00 ,Maize
+15,18/06/2022,Hybrid,Uttar Pradesh,Bilsi,2000.00 - 2100.00,2015.00 ,Maize
+16,18/06/2022,Other,Haryana,Shahzadpur,1750.00 - 1925.00,1750.00 ,Maize
+17,18/06/2022,Hybrid/Local,Andhra Pradesh,Atmakur,1850.00 - 1850.00,1850.00 ,Maize
+18,18/06/2022,Yellow,Uttar Pradesh,Jasvantnagar,1950.00 - 2050.00,2000.00 ,Maize
+19,18/06/2022,Local,Andhra Pradesh,Kurnool,2020.00 - 2020.00,2020.00 ,Maize

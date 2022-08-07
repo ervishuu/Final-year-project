@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Artificial Agriculture</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='admin/vendors/feather/feather.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='admin/vendors/ti-icons/css/themify-icons.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='admin/vendors/css/vendor.bundle.base.css') }}">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <link rel="stylesheet"
+        href="{{ url_for('static', filename='admin/vendors/datatables.net-bs4/dataTables.bootstrap4.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='admin/vendors/ti-icons/css/themify-icons.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='admin/js/select.dataTables.min.css') }}">
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='admin/css/vertical-layout-light/style.css') }}">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="{{ url_for('static', filename='admin/images/favicon.png') }}" />
+
+    {% block css %}
+
+    {% endblock css %}
+</head>
+
+<body>
+    <div class="container-scroller">
+        {% include '/admin/inc/header.html' %}
+        <!-- partial -->
+        <div class="container-fluid page-body-wrapper">
+
+            <!-- partial -->
+            {% include '/admin/inc/sidebar.html' %}
+            <!-- partial -->
+            <div class="main-panel">
+                <div class="content-wrapper">
+                    {% block content %}
+
+                    {% endblock content %}
+                </div>
+            </div>
+
+
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+
+    <!-- plugins:js -->
+    <script src="{{ url_for('static', filename='admin/vendors/js/vendor.bundle.base.js') }}"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="{{ url_for('static', filename='admin/vendors/chart.js/Chart.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='admin/vendors/datatables.net/jquery.dataTables.js') }}"></script>
+    <script
+        src="{{ url_for('static', filename='admin/vendors/datatables.net-bs4/dataTables.bootstrap4.js') }}"></script>
+    <script src="{{ url_for('static', filename='admin/js/dataTables.select.min.js') }}"></script>
+
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="{{ url_for('static', filename='admin/js/off-canvas.js') }}"></script>
+    <script src="{{ url_for('static', filename='admin/js/hoverable-collapse.js') }}"></script>
+    <script src="{{ url_for('static', filename='admin/js/template.js') }}"></script>
+    <script src="{{ url_for('static', filename='admin/js/settings.js') }}"></script>
+    <script src="{{ url_for('static', filename='admin/js/todolist.js') }}"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <script src="{{ url_for('static', filename='admin/js/dashboard.js') }}"></script>
+    <script src="{{ url_for('static', filename='admin/js/Chart.roundedBarCharts.js') }}"></script>
+    <!-- End custom js for this page-->
+</body>
+
+</html>

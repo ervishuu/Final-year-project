@@ -1,0 +1,88 @@
+{% extends 'layouts/app.html' %}
+
+{% block css %}
+<link href="static/css/contact.css" rel="stylesheet">
+<style>
+    .custom-image-input {
+        padding-top: 4px !important;
+        padding-bottom: 37px !important;
+    }
+</style>
+{% endblock css %}
+
+{% block content %}
+
+    <!-- -----------------------------------------Header End---------------------------------------------  -->
+
+    <!-- ----------------------------------------------Top Banner---------------------------------------------- -->
+    <section id="contact_main">
+        <div class="contact_main_3 clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="contact_main_1 clearfix">
+                        <div class="col-sm-6">
+                            <div class="contact_main_2">
+                                <h2>Classification</h2>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="contact_main_2">
+                                <ul>
+                                    <li>Home</li>
+                                    <li>!</li>
+                                    <li>Classification</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -------------------------------------------Top Banner End--------------------------------------------- -->
+
+    <!-- --------------------------------------------main container start---------------------------------------------- -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact_1">
+                    <h2>Choose Image Get Results</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="exercise">
+        <div class="container" style="text-align: center;">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="exercise_3">
+                        <h2>Upload Potato Image Here</h2>
+                    </div>
+                    <div class="">
+                        <div class="">
+                            <div class="">
+
+                                <form method="POST" action="{{url_for('potato_prediction')}}" enctype="multipart/form-data">
+                                <input type="file" class="form-control" name='image'>
+                                    <div class="col-sm-12 space_all">
+                                        <div class="exercise_6">
+                                            <button type="submit"  class="button_1">Submit</button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- --------------------------------------------main container end---------------------------------------------- -->
+
+{% endblock content %}

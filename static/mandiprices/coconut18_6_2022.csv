@@ -1,0 +1,22 @@
+id,Arrival Date,Variety,State,Market,Min / Max Price (Rs./Quintal),Average price (Rs./Quintal),Commodity
+,,,,,,,
+0,18/06/2022,Other,Kerala,Neeleswaram,2200.00 - 2400.00,2300.00 ,Coconut
+1,18/06/2022,Big,Kerala,Koduvayoor,2400.00 - 2800.00,2600.00 ,Coconut
+2,18/06/2022,Other,Kerala,Kottarakkara,3900.00 - 4000.00,4000.00 ,Coconut
+3,18/06/2022,Coconut,Tamil Nadu,Madathukulam,1900.00 - 2000.00,1950.00 ,Coconut
+4,18/06/2022,Other,Tamil Nadu,Palladam,1800.00 - 2000.00,1800.00 ,Coconut
+5,18/06/2022,Coconut,Kerala,Palakkad,2600.00 - 2900.00,2800.00 ,Coconut
+6,18/06/2022,Coconut,Kerala,Ernakulam,3400.00 - 3600.00,3600.00 ,Coconut
+7,18/06/2022,Big,Kerala,Thodupuzha,1600.00 - 1700.00,1700.00 ,Coconut
+8,18/06/2022,Other,Kerala,Thodupuzha,3100.00 - 3200.00,3200.00 ,Coconut
+9,18/06/2022,Other,Kerala,Taliparamba,2000.00 - 2700.00,2550.00 ,Coconut
+10,18/06/2022,Grade-I,Karnataka,Bangalore,20000.00 - 25000.00,22500.00 ,Coconut
+11,17/06/2022,Big,Kerala,Koduvayoor,2500.00 - 2800.00,2600.00 ,Coconut
+12,17/06/2022,Big,Kerala,Thodupuzha,1600.00 - 1700.00,1700.00 ,Coconut
+13,17/06/2022,Other,Kerala,Thodupuzha,3000.00 - 3100.00,3100.00 ,Coconut
+14,17/06/2022,Other,Kerala,Vamanapuram,3500.00 - 4000.00,3800.00 ,Coconut
+15,17/06/2022,Coconut,Kerala,Palakkad,2600.00 - 3000.00,2900.00 ,Coconut
+16,17/06/2022,Grade- II,Tamil Nadu,Kianthukadavu,1400.00 - 2800.00,2100.00 ,Coconut
+17,17/06/2022,Coconut,Tamil Nadu,Madathukulam,1900.00 - 2000.00,1950.00 ,Coconut
+18,17/06/2022,Other,Tamil Nadu,Palladam,1800.00 - 2000.00,1900.00 ,Coconut
+19,17/06/2022,Coconut,Tamil Nadu,Pudupalayam,2500.00 - 2700.00,2600.00 ,Coconut

@@ -1,0 +1,57 @@
+{% extends 'layouts/app.html' %}
+
+{% block css %}
+<link href="static/css/shop.css" rel="stylesheet">
+{% endblock css %}
+
+{% block content %}
+
+<section id="shop_main">
+	<div class="shop_main_3 clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="shop_main_1 clearfix">
+					<div class="col-sm-6">
+						<div class="shop_main_2">
+							<h2>SHOP</h2>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="shop_main_2">
+							<ul>
+								<li>Home</li>
+								<li>!</li>
+								<li>Shop</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="shop">
+	<div class="container">
+		<div class="row">
+			<div class="shop_1 clearfix">
+				{% for item in sell %}
+				<div class="col-sm-3">
+					<div class="shop_2">
+						<a href="/shopDetails/{{item.id}}"><img style="    min-height: 18rem;
+							max-height: 18rem;" src="{{item.first_image}}" alt="image1" class="img_responsive"></a>
+					</div>
+					<div class="shop_3">
+						<h4>{{item.animal_type}}</h4>
+						<h4>{{item.breed_name}}</h4>
+						<hr class="hr_1">
+						<p>{{item.price}}</p>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</section>
+
+
+{% endblock content %}

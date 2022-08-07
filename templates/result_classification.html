@@ -1,0 +1,92 @@
+{% extends 'layouts/app.html' %}
+
+{% block css %}
+<link href="static/css/contact.css" rel="stylesheet">
+<style>
+    .custom-image-input {
+        padding-top: 4px !important;
+        padding-bottom: 37px !important;
+    }
+</style>
+{% endblock css %}
+
+{% block content %}
+    <!-- -----------------------------------------Header End---------------------------------------------  -->
+
+    <!-- ----------------------------------------------Top Banner---------------------------------------------- -->
+    <section id="contact_main">
+        <div class="contact_main_3 clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="contact_main_1 clearfix">
+                        <div class="col-sm-6">
+                            <div class="contact_main_2">
+                                <h2>Result</h2>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="contact_main_2">
+                                <ul>
+                                    <li>Home</li>
+                                    <li>!</li>
+                                    <li>Result</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -------------------------------------------Top Banner End--------------------------------------------- -->
+
+
+    <!-- --------------------------------------------main container start---------------------------------------------- -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact_1">
+                    <h2>See Results and Solution Here</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="exercise">
+        <div class="container" style="text-align: center;">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="">
+                        <div class="">
+                            <div class="">
+<!--                                <img src="static/img/webimg/4.jpg" alt="" srcset="">-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="exercise_3">
+                        <h2>Disease Name</h2>
+                    </div>
+
+
+                    <h3 style="color:red;"><span>{{data[0]}}</span> </h3>
+
+                    <img class="mt-2" src="{{user_image}}" alt='img' style=" max-width: 480px; max-height: 480px;">
+
+                    <div class="col-sm-12 space_all" style="display: flex; justify-content: space-around;">
+                        <div class="exercise_6">
+                            <a href="#" class="button_1">Return Back</a>
+                        </div>
+                        <div class="exercise_6">
+                            <a href="#" class="button_1">See Solution</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- --------------------------------------------main container end---------------------------------------------- -->
+{% endblock content %}

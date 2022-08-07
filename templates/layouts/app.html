@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>agricultural</title>
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/global.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/index.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/font-awesome.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/ken-burns.css') }}" rel="stylesheet" media="all">
+    <link href="{{ url_for('static', filename='css/animate.css') }}" rel="stylesheet" media="all">
+    <link href="{{url_for('static',filename='chatbot-styles/style.css')}}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+
+    {% block css %}
+
+    {% endblock css %}
+    <script src="{{ url_for('static', filename='js/jquery-2.1.1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+
+
+</head>
+
+<body>
+    {% include '/inc/header.html' %}
+    {% include '/inc/alerts.html' %}
+
+
+    {% block content %}
+
+    {% endblock content %}
+
+
+    {% include '/inc/footer.html' %}
+
+    {% include '/chatBot.html' %}
+
+    <script>
+        $(document).ready(function () {
+            /*****Fixed Menu******/
+            var secondaryNav = $('.cd-secondary-nav'),
+                secondaryNavTopPosition = secondaryNav.offset().top;
+            $(window).on('scroll', function () {
+                if ($(window).scrollTop() > secondaryNavTopPosition) {
+                    secondaryNav.addClass('is-fixed');
+                } else {
+                    secondaryNav.removeClass('is-fixed');
+                }
+            });
+        });
+    </script>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+<script src="static/chatbot-styles/script.js"></script>
+</body>
