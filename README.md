@@ -47,7 +47,13 @@ The experiments were performed on an Win10 workstation with CPU i7 and RAM 8GB, 
  
  It can be expressed as:
                             Accuracy (all correct / all) = TP + TN / TP + TN + FP + FN
-                            
+                                                  
+                                                  
+![image](https://user-images.githubusercontent.com/63738852/183291228-bc24e4a3-1358-40b9-a1ea-f688490dad85.png)      
+
+
+> After applying various  Algorithms on dataset we got accuracies as mentioned below, On Different plant species 
+
                             
 | #             | Algorithm     | Accuracy      |
 | ------------- | ------------- | ------------- |
@@ -58,8 +64,7 @@ The experiments were performed on an Win10 workstation with CPU i7 and RAM 8GB, 
 | Tomato plant  | VGG 19         |        97.67%       |
 |Crop Recommendation  | Random Forestl  |       92.31%        |
 |Mandi price forecasting | ARIMA  |       92.87%        |
-                            
-![image](https://user-images.githubusercontent.com/63738852/183291228-bc24e4a3-1358-40b9-a1ea-f688490dad85.png)
+
 
 
 
