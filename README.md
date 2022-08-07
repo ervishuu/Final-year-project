@@ -10,17 +10,10 @@ to cultivate if they are aware of weather for the upcoming few days in advance.
 
 
 ## OBJECTIVE OF THE PROPOSED WORK 🎯
-
-To make an efficient use of Image Processing by using camera which reduces time and cost for farmer to
-detect the disease and suggest the fertilizers for plant.
-
-We can also predict rainfall, allowing to choose which crop to plant. We will learn about the ecosystem
-as well.
-
-We will know what today’s market price is, and what the next 15 days will be . so we can sell goods
-properly.
-
-In addition, We will be able to buy and sell farmed animals online.
+ - To make an efficient use of Image Processing by using camera which reduces time and cost for farmer to detect the disease and suggest the fertilizers for plant.
+ - We can also predict rainfall, allowing to choose which crop to plant. We will learn about the ecosystem as well.
+ - We will know what today’s market price is, and what the next 15 days will be . so we can sell goods properly.
+ - In addition, We will be able to buy and sell farmed animals online.
 
 
 ## Methodology/Algorithm/Flowchart/Circuit 📈
@@ -36,12 +29,11 @@ In addition, We will be able to buy and sell farmed animals online.
 
 
 ## RESULTS AND DISCUSSION 🎉🏆
-
-The experiments were performed on an Win10 workstation with CPU i7 and RAM 8GB, accelerated by NVIDIA GTX 1650 GPUs.
- All of our experiments were implemented by deep learning open source framework. Moreover, accuracy rate was used to evaluate the performance of network models. The accuracy rate refers to the proportion of the number of corrected positive predictions to that of the whole positive predictions. 
- 
- It can be expressed as:
-                            Accuracy (all correct / all) = TP + TN / TP + TN + FP + FN
+ - The experiments were performed on an Win10 workstation with CPU i7 and RAM 8GB, accelerated by NVIDIA GTX 1650 GPUs.
+ - All of our experiments were implemented by deep learning open source framework. Moreover, accuracy rate was used to evaluate the performance of network models. 
+ - The accuracy rate refers to the proportion of the number of corrected positive predictions to that of the whole positive predictions. 
+ - It can be expressed as:
+   - > Accuracy (all correct / all) = TP + TN / TP + TN + FP + FN
                                                   
                                                   
 ![image](https://user-images.githubusercontent.com/63738852/183291228-bc24e4a3-1358-40b9-a1ea-f688490dad85.png)      
@@ -75,16 +67,10 @@ The experiments were performed on an Win10 workstation with CPU i7 and RAM 8GB, 
 
 
 ## CONCLUSION 📍
-
-This proposed system describes different techniques of image processing for detecting plant diseases.
-
-Farmers will also know which crops to plant in particular seasons and which crops are most suited to their cultivation.
-
-The market prices of Indian commodities fluctuates geographically. To give a better understanding of these fluctuations to stakeholders and farmers, in this system, we have presented a short-term price forecasting model using ARIMA model which will eventually lead to more sustainability to different stakeholders.
-
-We will also have the pets we desire, which we can keep or give to others, saving our time and money.
-
-Weather forecasting can help with a farmer’s business decisions. Forecasts can help them plan for the many day-to-day decisions. These decisions include crop irrigation, time to fertilize, and what days are suitable for working in the field. The decisions that farmers make will result in a profitable crop or failure.
+ - This proposed system describes different techniques of image processing for detecting plant diseases.Farmers will also know which crops to plant in particular seasons and which crops are most suited to their cultivation.
+ - The market prices of Indian commodities fluctuates geographically. To give a better understanding of these fluctuations to stakeholders and farmers, in this system, we have presented a short-term price forecasting model using ARIMA model which will eventually lead to more sustainability to different stakeholders.
+ - We will also have the pets we desire, which we can keep or give to others, saving our time and money.
+ - Weather forecasting can help with a farmer’s business decisions. Forecasts can help them plan for the many day-to-day decisions. These decisions include crop irrigation, time to fertilize, and what days are suitable for working in the field. The decisions that farmers make will result in a profitable crop or failure.
 
 
 
