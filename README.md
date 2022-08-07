@@ -31,7 +31,8 @@ In addition, We will be able to buy and sell farmed animals online.
 
 
 ## Methodology/Algorithm/Flowchart/Circuit
-Diagram
+
+
 ![_ARTIFICIAL AGRICULTURE (1) pptx](https://user-images.githubusercontent.com/63738852/183290990-1ac57a24-5ccb-4fd8-a788-45fe8ac7d7eb.jpg)
 
 ![_ARTIFICIAL AGRICULTURE (1) pptx (1)](https://user-images.githubusercontent.com/63738852/183290995-b858b931-91c2-477f-b433-dac1f40ea35b.jpg)
@@ -117,13 +118,12 @@ Weather forecasting can help with a farmer’s business decisions. Forecasts can
 
 ## Team members 
 
-I want to thank your team for their hard work and dedication
+I want to thank my team for their hard work and dedication
 
 1) Shubham Nikam    [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubham-nikam-b52ba41a3/)
 2) Vishvanath Metkari   [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishvanath-metkari-586617197/)
 3) Akash Shinde    [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akash-shinde-3237b81b0/)
 4) Saurabh Bane   [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saurabh-bane-86a6a71b1/)
-
 
 
 
