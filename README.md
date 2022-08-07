@@ -91,3 +91,26 @@ We will also have the pets we desire, which we can keep or give to others, savin
 
 Weather forecasting can help with a farmer’s business decisions. Forecasts can help them plan for the many day-to-day decisions. These decisions include crop irrigation, time to fertilize, and what days are suitable for working in the field. The decisions that farmers make will result in a profitable crop or failure.
 
+
+
+## Programming Language Used :
+
+1) Python 3.7
+2) Flask 
+3) HTML 
+4) CSS 
+5) JS
+
+## Also we use following python libraries:
+
+1) scikit-learn
+2) Keras
+3) Pandas
+4) Beautiful
+5) VGG 19
+6) Numpy
+7) Tensorflow 
+8) plotly
+9) nltk
+10) sqlite3
+11) joblib
