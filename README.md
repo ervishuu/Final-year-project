@@ -1,6 +1,6 @@
 # Artificial Agriculture-Web-Application 🧑‍🌾
 
-## PROBLEM STATEMENT
+## PROBLEM STATEMENT 🧿
 
 The plant diseases are such as fungi, bacteria, and viruses. The leaf diseases not only restrict the growth
 of the plant but also destroy its crop.There is the need of some expert to identify plant diseases but manual identification is time consuming.
@@ -16,7 +16,7 @@ Farmers are having a lot of difficulty farming as a result of climate change. It
 to cultivate if they are aware of weather for the upcoming few days in advance.
 
 
-## OBJECTIVE OF THE PROPOSED WORK
+## OBJECTIVE OF THE PROPOSED WORK 🎯
 
 To make an efficient use of Image Processing by using camera which reduces time and cost for farmer to
 detect the disease and suggest the fertilizers for plant.
@@ -30,7 +30,7 @@ properly.
 In addition, We will be able to buy and sell farmed animals online.
 
 
-## Methodology/Algorithm/Flowchart/Circuit
+## Methodology/Algorithm/Flowchart/Circuit 📈
 
 
 ![_ARTIFICIAL AGRICULTURE (1) pptx](https://user-images.githubusercontent.com/63738852/183290990-1ac57a24-5ccb-4fd8-a788-45fe8ac7d7eb.jpg)
@@ -42,7 +42,8 @@ In addition, We will be able to buy and sell farmed animals online.
 ![_ARTIFICIAL AGRICULTURE (1) pptx (3)](https://user-images.githubusercontent.com/63738852/183291013-ac3c0af0-3686-4a6a-bcf4-4b21f28edda5.jpg)
 
 
-## RESULTS AND DISCUSSION
+## RESULTS AND DISCUSSION 🎉🏆
+
 The experiments were performed on an Win10 workstation with CPU i7 and RAM 8GB, accelerated by NVIDIA GTX 1650 GPUs.
  All of our experiments were implemented by deep learning open source framework. Moreover, accuracy rate was used to evaluate the performance of network models. The accuracy rate refers to the proportion of the number of corrected positive predictions to that of the whole positive predictions. 
  
@@ -67,7 +68,7 @@ The experiments were performed on an Win10 workstation with CPU i7 and RAM 8GB, 
 |Mandi price forecasting | ARIMA  |       92.87%        |
 
 
-## RESULTS
+## RESULTS 🎉🏆
 
 
 ![_ARTIFICIAL AGRICULTURE (1) pptx (4)](https://user-images.githubusercontent.com/63738852/183291018-2d24a733-b5fc-4b77-bcb3-ae496726d174.jpg)
@@ -80,7 +81,7 @@ The experiments were performed on an Win10 workstation with CPU i7 and RAM 8GB, 
 
 
 
-## CONCLUSION
+## CONCLUSION 📍
 
 This proposed system describes different techniques of image processing for detecting plant diseases.
 
@@ -116,7 +117,7 @@ Weather forecasting can help with a farmer’s business decisions. Forecasts can
 10) sqlite3
 11) joblib
 
-## Team members 
+## Team members 🙌
 
 I want to thank my team for their hard work and dedication
 
