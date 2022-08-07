@@ -51,12 +51,13 @@ The experiments were performed on an Win10 workstation with CPU i7 and RAM 8GB, 
                             
 | #             | Algorithm     | Accuracy      |
 | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  |               |
-| Content Cell  | Content Cell  |               |
-| Content Cell  | Content Cell  |               |
-| Content Cell  | Content Cell  |               |
-| Content Cell  | Content Cell  |               |
-| Content Cell  | Content Cell  |               |
+| Corn Plant    | VGG19         |           97.61%    |
+|Cotton Plant   | Model (6 Conv2D ,4 Max-Pooling )  |       96.83%        |
+| Grapes Plant  | Model (4 Conv2D ,4 Max-Pooling )  |        95.84%       |
+| Potato plant  | Model (4 Conv2D ,4 Max-Pooling )  |        97.43%       |
+| Tomato plant  | VGG 19         |        97.67%       |
+|Crop Recommendation  | Random Forestl  |       92.31%        |
+|Mandi price forecasting | ARIMA  |       92.87%        |
                             
 ![image](https://user-images.githubusercontent.com/63738852/183291228-bc24e4a3-1358-40b9-a1ea-f688490dad85.png)
 
