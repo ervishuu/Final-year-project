@@ -49,10 +49,14 @@ The experiments were performed on an Win10 workstation with CPU i7 and RAM 8GB, 
                             Accuracy (all correct / all) = TP + TN / TP + TN + FP + FN
                             
                             
-                        | First Header  | Second Header |
-                        | ------------- | ------------- |
-                        | Content Cell  | Content Cell  |
-                        | Content Cell  | Content Cell  |    
+| #             | Algorithm     | Accuracy |
+| ------------- | ------------- |          |
+| Content Cell  | Content Cell  |          |
+| Content Cell  | Content Cell  |          |
+| Content Cell  | Content Cell  |          |
+| Content Cell  | Content Cell  |          |
+| Content Cell  | Content Cell  |          |
+| Content Cell  | Content Cell  |          |
                             
 ![image](https://user-images.githubusercontent.com/63738852/183291228-bc24e4a3-1358-40b9-a1ea-f688490dad85.png)
 
