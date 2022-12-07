@@ -294,36 +294,5 @@ def commodity_price_forcasting():
             return render_template('commodity_price_forcasting.html', graphJSON=graphJSON, minimun_price=minimun_price,
                                    maximum_price=maximum_price,ed=ed)
 
-        return render_template('mandi_price_forcasting.html')
-    else:
-        return render_template("error.html")
-
-
-# ---------------------mandi price ----------------------------
-
-@app.route('/seeds_rate', methods=['GET', 'POST'])
-def seeds_rate():
-    connection, cursor_mandi = mandidb()
-    cursor_mandi.execute("SELECT * from rates_data")
-    rows = []
-    for row in cursor_mandi:
-        rows.append(row)
-    cursor_mandi.close()
-    return render_template('seeds_rate.html',data = rows)
-
-
-@app.route('/feachMandiData', methods = ['POST','GET'])
-def feachMandiData():
-    connection , cursor_mandi = mandidb()
-    if request.method == 'POST':
-        commodity = request.form['commodity']
-        sql="SELECT * FROM rates_data WHERE commidity = '{}'".format(commodity)
-        cursor_mandi.execute(sql)
-        feachedData = []
-        for row in cursor_mandi:
-            feachedData.append(row)
-    cursor_mandi.close()
-    return render_template("scrapped_seeds_rate.html",data = feachedData)
-
 if __name__ == "__main__":
     app.run()
