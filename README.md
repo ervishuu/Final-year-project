@@ -66,13 +66,6 @@ to cultivate if they are aware of weather for the upcoming few days in advance.
 
 
 
-## CONCLUSION 📍
- - This proposed system describes different techniques of image processing for detecting plant diseases.Farmers will also know which crops to plant in particular seasons and which crops are most suited to their cultivation.
- - The market prices of Indian commodities fluctuates geographically. To give a better understanding of these fluctuations to stakeholders and farmers, in this system, we have presented a short-term price forecasting model using ARIMA model which will eventually lead to more sustainability to different stakeholders.
- - We will also have the pets we desire, which we can keep or give to others, saving our time and money.
- - Weather forecasting can help with a farmer’s business decisions. Forecasts can help them plan for the many day-to-day decisions. These decisions include crop irrigation, time to fertilize, and what days are suitable for working in the field. The decisions that farmers make will result in a profitable crop or failure.
-
-
 
 ## Programming Language Used :
 
